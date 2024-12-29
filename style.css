@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-image: url(imagens/agua.avif);
+    flex-direction: column;
+    align-items: center;
+}
+.bandeira{
+    position: absolute;
+    margin: -80px 0% 0% 70%;
+    height: 80px;
+    transition: 1s;
+}
+.bandeira:hover{
+    position: absolute;
+    margin: -40px 0% 0% 70%;
+    height: 80px;
+    transition: 1s;
+}
+a {
+    margin: 0px 100% 0px 0px;
+}
+img.voltar {
+    display: flex;
+    height: 30px;
+}
+img.logo {
+    width: 200px;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 41px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.termos{
+    margin: 15px 0px;
+    display: inline-flex;
+    align-items: baseline;
+}
+.link{
+    margin: 0px 6px;
+    color: black;
+    text-decoration: none;
+}
+.link:hover{
+    color: blue;
+    text-decoration: underline;
+}
+input.caixalink{
+    width: 15px;
+}
+label {
+    margin: 15px 0px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+input, select, textarea, button {
+    width: 100%;
+    padding: 9px 0px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+    button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
