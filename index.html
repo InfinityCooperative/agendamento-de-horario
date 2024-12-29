@@ -83,8 +83,7 @@
                              `Nome: ${nome}\n` +
                              `Serviço: ${servico}\n` +
                              `Data: ${data}\n` +
-                             `Hora: ${hora}\n` +
-                             `Observação: ${observacao || 'Nenhuma'}`;
+                             `Hora: ${hora}\n`;
 
             // Enviar para o WhatsApp
             const whatsappLink = `https://wa.me/${telefoneWhatsApp}?text=${encodeURIComponent(mensagem)}`;
